@@ -1,15 +1,18 @@
 import React from 'react';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 	return (
 		<header className="head">
-			{/* <h1 id="title">Shauna Larkin</h1> */}
-			<h1 id="subtitle"> Dreams of Ayame Freelance Web Design</h1>
+			<h1 id="title">Shauna N Larkin</h1>
+			<h1 id="subtitle"> Dream's of Ayame</h1>
 			<nav className="navigation">
-				<a href="index.html">About</a>
-				<span> |</span> <a href="contact.html">Contact</a>
-				<span> |</span> <a href="portfolio.html">Portfolio</a>
+				<Link to="/">About</Link>
+				<span> |</span>
+				<Link to="/contact">Contact</Link>
+				<span> |</span>
+				<Link to="/portfolio">Portfolio</Link>
 			</nav>
 		</header>
 	);
