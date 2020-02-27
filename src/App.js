@@ -22,7 +22,11 @@ function App() {
 					<Route exact path="/contact" component={Contact} />
 					<Route exact path="/portfolio" component={Portfolio} />
 					{/* <Route exact path="/search" component={Search} /> */}
+<<<<<<< HEAD
 					<Route exact path="/Portfolio-React/" component={About} />
+=======
+		<Route exact path ="/Portfolio-React/" component={About} />
+>>>>>>> 21173594fa037662acc2089825afea4f14f037d9
 				</div>
 			</div>
 		</Router>
