@@ -32,6 +32,13 @@ function Portfolio() {
 					Portfolio
 					<hr />
 				</h2>
+				<div>
+				<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+				</div>
 				<div class="container" id="linkTwo">
 					<img src={book} alt="book" style={{ width: 200, height: 200 }} class="linkvid" />
 					<div class="btn1" id="btn1">
