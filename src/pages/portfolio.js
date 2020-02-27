@@ -65,7 +65,7 @@ function Portfolio() {
 						</span>
 					</div>
 				</div>
-				<div class="container" id="linkSeven">
+				{/* <div class="container" id="linkSeven">
 					<img src={translation} alt="translation" style={{ width: 200, height: 200 }} class="linkvid" />
 					<div class="btn4" id="btn4">
 						Translation Website COMING SOON
@@ -83,8 +83,8 @@ function Portfolio() {
 							This is a React basied weather app. Using hooks and styled componets.
 						</span>
 					</div>
-				</div>{' '}
-				*/}
+				</div>{' '} */}
+
 				<div class="container" id="linkOne">
 					<img src={word} alt="word" style={{ width: 200, height: 200 }} class="linkpic" id="word" />
 					<div class="btn6" id="btn6">
