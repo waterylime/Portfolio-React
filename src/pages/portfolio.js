@@ -27,31 +27,35 @@ function Portfolio() {
 	return (
 		<div class="back" id="portBack">
 			{modeFun2}
-			<div class="contactbox" id="placeholders">
+			<div class="contactbox background" id="placeholders">
 				<h2>
 					Portfolio
 					<hr />
 				</h2>
-				<div>
-				<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-				</div>
-				<div class="container" id="linkTwo">
-					<img src={book} alt="book" style={{ width: 200, height: 200 }} class="linkvid" />
-					<div class="btn1" id="btn1">
-						Book Finder
-						<span id="bookFinder">
-							ur usuer story: As a reader I want to see books recommend from a title entered/ books
-							recommended from genres. Along with reader reviews and rating. So that I can find new
-							literature to read.
-						</span>
+				<div className="book">
+					<div>
+						<video className="video-container video-container-overlay" autoPlay="true" loop>
+							<source src={book} type="video/mp4" />
+						</video>
+					</div>
+					<div class="container" id="linkTwo">
+						<div class="btn1" id="btn1">
+							Book Finder
+							<span id="bookFinder">
+								ur usuer story: As a reader I want to see books recommend from a title entered/ books
+								recommended from genres. Along with reader reviews and rating. So that I can find new
+								literature to read.
+							</span>
+						</div>
 					</div>
 				</div>
+				<div className="code" />
+				<div>
+					<video className="video-container video-container-overlay" autoPlay="true" loop>
+						<source src={code} type="video/mp4" />
+					</video>
+				</div>
 				<div class="container" id="linkSix">
-					<img src={code} style={{ width: 200, height: 200 }} className="linkvid" alt="code" />
 					<div className="btn2" id="btn2">
 						Code Quiz
 						<span id="codeQuiz">
@@ -61,8 +65,14 @@ function Portfolio() {
 						</span>
 					</div>
 				</div>
-				<div class="container" id="linkFive">
-					<img src={pass} alt="password" style={{ width: 200, height: 200 }} class="linkvid" />
+			</div>
+			<div className="pass">
+				<div>
+					<video className="video-container video-container-overlay" autoPlay="true" loop>
+						<source src={pass} type="video/mp4" />
+					</video>
+				</div>
+				<div class="container " id="linkFive">
 					<div class="btn3" id="btn3">
 						Password Generater
 						<span id="passPop">
@@ -72,8 +82,19 @@ function Portfolio() {
 						</span>
 					</div>
 				</div>
-				{/* <div class="container" id="linkSeven">
-					<img src={translation} alt="translation" style={{ width: 200, height: 200 }} class="linkvid" />
+			</div>
+			<div className="container4">
+				{/* <div>
+					<video
+						className="video-container video-container-overlay"
+						autoPlay="true"
+						loop
+					
+					>
+						<source src={this.props.translation} type="video/mp4" />
+					</video>
+				</div> */}
+				<div class="container" id="linkSeven">
 					<div class="btn4" id="btn4">
 						Translation Website COMING SOON
 						<span id="bsnPop">
@@ -82,18 +103,31 @@ function Portfolio() {
 						</span>
 					</div>
 				</div>
+			</div>
+			<div className="container5">
+				{/* <div>
+					<video
+						className="video-container video-container-overlay"
+						autoPlay="true"
+						loop>
+						<source src={this.props.weather} type="video/mp4" />
+					</video>
+				</div> */}
 				<div class="container" id="linkThree">
-					<img src={weater} alt="weather" style={{ width: 200, height: 200 }} class="linkvid" />
 					<div class="btn5" id="btn5">
 						React Weather App
 						<span id="weatherPop">
 							This is a React basied weather app. Using hooks and styled componets.
 						</span>
 					</div>
-				</div>{' '} */}
-
+				</div>{' '}
+				<div />
+				<div className="container6">
+					<video className="video-container video-container-overlay" autoPlay="true" loop>
+						<source src={word} type="video/mp4" />
+					</video>
+				</div>
 				<div class="container" id="linkOne">
-					<img src={word} alt="word" style={{ width: 200, height: 200 }} class="linkpic" id="word" />
 					<div class="btn6" id="btn6">
 						What in the Word
 						<span id="Word">
@@ -103,8 +137,14 @@ function Portfolio() {
 						</span>
 					</div>
 				</div>
+			</div>
+			<div className="container7">
+				<div>
+					<video className="video-container video-container-overlay" autoPlay="true" loop>
+						<source src={dragon} type="video/mp4" />
+					</video>
+				</div>
 				<div class="container" id="linkFour">
-					<img src={dragon} alt="rest screenshot" style={{ width: 200, height: 200 }} class="linkpic" />
 					<div class="btn7" id="btn7">
 						Dragon Restaurant
 						<span id="restPop">

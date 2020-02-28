@@ -41,3 +41,27 @@ html {
     transform: rotate(360deg);
   }
 }
+.video-container {
+  width: 400px;
+  height: 400px;
+}
+
+.book{
+  background-color: honeydew;
+  width: 600px;
+  height: 500px;
+}
+
+.code{
+  background-color: rgb(189, 225, 236);
+  width: 600px;
+  height: 500px;
+  float: center;
+}
+.code{
+  background-color: rgb(240, 194, 234);
+  width: 600px;
+  height: 500px;
+  float: center;
+}
+
