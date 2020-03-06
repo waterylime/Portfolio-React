@@ -1,5 +1,5 @@
-html {
-  background-image: url(../src/assets/Pic/IMG_0159.JPG);
+.App {
+  background-image: url(../src/assets/Pic/birdtrees.GIF);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -15,7 +15,7 @@ html {
   height: 400px;
 }
 
-.book {
+/* .book {
   background-color: honeydew;
   width: 600px;
   height: 500px;
@@ -32,16 +32,36 @@ html {
   width: 600px;
   height: 500px;
   float: center;
-}
+} */
 
 .contactbox {
-  max-width: 1200px;
+  max-width: 1072px;
   margin: 100px auto;
   padding: 20px;
   background-color: rgba(247, 221, 225, 0.85);
   color: #333333;
   border-radius: 10px;
 }
+
+.contactboxP {
+  width: 680px;
+  height: 2509px auto;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(247, 221, 225, 0.85);
+  color: #333333;
+  border-radius: 10px;
+}
+.contactboxC{
+  width: 680px;
+  height: 2509px auto;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(247, 221, 225, 0.85);
+  color: #333333;
+  border-radius: 10px;
+}
+
 
 .modal {
   top: 50%;
