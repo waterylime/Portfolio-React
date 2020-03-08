@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './assets/style/App.css';
+import './App.css';
 import Navbar from './componants/navbar/navbar';
 import About from './pages/about';
 import Contact from './pages/contact';
